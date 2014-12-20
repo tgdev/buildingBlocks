@@ -4,7 +4,8 @@
   "description": "Codeschool's ExpressJS soup to bits screencast",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/www",
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.10.6"
+  },
+  "devDependencies": {
+    "supertest": "~0.15.0",
+    "mocha": "~1.21.4"
   }
 }
