@@ -1,0 +1,22 @@
+{
+  "name": "buildingBlocks",
+  "version": "0.0.0",
+  "description": "Codeschool's ExpressJS soup to bits screencast",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgdev/buildingBlocks.git"
+  },
+  "keywords": [
+    "expressjs",
+    "node"
+  ],
+  "author": "Tom Gillard",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.6"
+  }
+}
